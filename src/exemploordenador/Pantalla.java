@@ -18,8 +18,8 @@ private float pulgadas;
 
     /**
      * Constructor con los parametros marca y pulgadas de la pantalla
-     * @param marca de la pantalla
-     * @param pulgadas de la pantalla
+     * @param marca fabricante de la pantalla
+     * @param pulgadas tamaño de la pantalla
      */
     public Pantalla(String marca, float pulgadas){
 this.marca=marca;
@@ -27,7 +27,7 @@ this.pulgadas=pulgadas;
 }
 /**
  * Metedo para darle valor a marca
- * @param marca de la pantalla
+ * @param marca fabricante de la pantalla
  */
 public void setMarca(String marca){
 this.marca=marca;    
@@ -41,7 +41,7 @@ return marca;
 }
 /**
  * Metodo para darle valor a pulgadas
- * @param pulgadas de la pantalla
+ * @param pulgadas tamaño de la pantalla
  */
 public void setPulgadas(float pulgadas){
 this.pulgadas=pulgadas;    
