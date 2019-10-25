@@ -1,10 +1,11 @@
+
+package exemploordenador;
+
 /**
  * Clase Pantalla utilizada para crear objetos(pantallas) que forman
  * parte de un ordenador
- */
-package exemploordenador;
-// @author irodriguezsteuerberg
-
+ * @author irodriguezsteuerberg
+*/
 public class Pantalla {
 private String marca;
 private float pulgadas;
@@ -23,7 +24,7 @@ this.marca=marca;
 }
 /**
  * Metodo para obtener el valor de marca
- * @return 
+ * @return la marca de la pantalla
  */
 public String getMarca(){
 return marca;    
@@ -37,7 +38,7 @@ this.pulgadas=pulgadas;
 }
 /**
  * Metodo para obtener el valor de pulgadas
- * @return 
+ * @return las pulgadas de la pantalla
  */
 public float getPulgadas(){
 return pulgadas;    
