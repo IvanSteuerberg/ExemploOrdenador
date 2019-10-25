@@ -9,15 +9,25 @@ package exemploordenador;
 public class Pantalla {
 private String marca;
 private float pulgadas;
-public Pantalla(){
+
+    /**
+     * Constructor predeterminado para los objetos de la clase Pantalla
+     */
+    public Pantalla(){
 }
-public Pantalla(String marca, float pulgadas){
+
+    /**
+     * Constructor con los parametros marca y pulgadas de la pantalla
+     * @param marca de la pantalla
+     * @param pulgadas de la pantalla
+     */
+    public Pantalla(String marca, float pulgadas){
 this.marca=marca;
 this.pulgadas=pulgadas;
 }
 /**
  * Metedo para darle valor a marca
- * @param marca 
+ * @param marca de la pantalla
  */
 public void setMarca(String marca){
 this.marca=marca;    
@@ -31,7 +41,7 @@ return marca;
 }
 /**
  * Metodo para darle valor a pulgadas
- * @param pulgadas 
+ * @param pulgadas de la pantalla
  */
 public void setPulgadas(float pulgadas){
 this.pulgadas=pulgadas;    
