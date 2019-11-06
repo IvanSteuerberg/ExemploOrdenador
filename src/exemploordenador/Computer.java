@@ -33,6 +33,7 @@ public class Computer {
 
     /**
      * Method used to set the value of mouse
+     *
      * @param mouse of the computer
      */
     public void setMouse(Mouse mouse) {
@@ -40,7 +41,8 @@ public class Computer {
     }
 
     /**
-     * Method used to get the value of mouse 
+     * Method used to get the value of mouse
+     *
      * @return mouse of the computer
      */
     public Mouse getMouse() {
@@ -49,6 +51,7 @@ public class Computer {
 
     /**
      * Method used to set the value of cpu
+     *
      * @param cpu of the computer
      */
     public void setCpu(Cpu cpu) {
@@ -57,6 +60,7 @@ public class Computer {
 
     /**
      * Method used to get the value of cpu
+     *
      * @return cpu of the computer
      */
     public Cpu getCpu() {
@@ -65,6 +69,7 @@ public class Computer {
 
     /**
      * Method used to set the value of screen
+     *
      * @param screen of the computer
      */
     public void setScreen(Screen screen) {
@@ -72,13 +77,14 @@ public class Computer {
 
     /**
      * Method used to get the value of screen
+     *
      * @return screen of the computer
      */
     public Screen getScreen() {
         return screen;
     }
 
-    /** 
+    /**
      * Method used to print on screen all the information of the computer
      */
     public void see() {
