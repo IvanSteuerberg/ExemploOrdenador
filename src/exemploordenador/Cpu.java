@@ -2,7 +2,7 @@ package exemploordenador;
 //@author irodriguezsteuerberg
 
 /**
- * class Mouse used to create objects(cpus) used to create a computer
+ * class Cpu used to create objects(cpus) used to create a computer
  * @author irodriguezsteuerberg
  */
 
