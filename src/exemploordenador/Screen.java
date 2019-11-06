@@ -11,13 +11,13 @@ public class Screen {
     private float inches;
 
     /**
-     * Interface predetermined for the objects of the class Screen
+     * Constructor predetermined for the objects of the class Screen
      */
     public Screen() {
     }
 
     /**
-     * Interface with parameters for the objects of the class Screen
+     * Constructor with parameters for the objects of the class Screen
      *
      * @param brand manufacturer of the screen
      * @param inches size of the screen
