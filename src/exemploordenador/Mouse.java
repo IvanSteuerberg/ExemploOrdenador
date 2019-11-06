@@ -18,6 +18,7 @@ public class Mouse {
 
     /**
      * Constructor with parameters for the objects of the class Mouse
+     *
      * @param type of the mouse
      */
     public Mouse(String type) {
@@ -26,6 +27,7 @@ public class Mouse {
 
     /**
      * Method used to set the value of type
+     *
      * @param type sort of mouse
      */
     public void setType(String type) {
@@ -33,7 +35,8 @@ public class Mouse {
     }
 
     /**
-     *Method used to get the value of type
+     * Method used to get the value of type
+     *
      * @return type of the mouse
      */
     public String getType() {
